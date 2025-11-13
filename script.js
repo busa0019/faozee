@@ -4749,7 +4749,7 @@ const projects = [
             <p class="text-accent text-center mt-3 font-semibold">— Sound Design Philosophy</p>
         </div>
     `,
-    tags: ["sound", "audio", "sound-design", "foley", "comedy", "short-film", "storytelling"],
+    tags: ["sound", "audio", "video", "sound-design", "foley", "comedy", "short-film", "storytelling"],
     enhancedTags: {
         tools: ["Professional Microphones", "Pro Tools", "Adobe Audition", "Foley Props", "Audio Interfaces"],
         methods: ["Comedic Sound Design", "Foley Art", "Timing & Rhythm", "Emotional Audio", "Spatial Placement"],
