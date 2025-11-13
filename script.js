@@ -4769,6 +4769,308 @@ const projects = [
         
     ],
     thumbnail: 'images/vid-s-3.jpg'
+},
+{
+    id: 14,
+    title: "Brand Jingles & Motion Graphics",
+    summary: "Short, impactful audio and motion compositions including logo animations and merchandise jingles that create memorable brand moments.",
+    description: `
+        <!-- Hero Section -->
+        <div class="case-study-hero mb-8">
+            <div class="text-center mb-8">
+                <h1 class="text-4xl md:text-5xl font-bold text-accent mb-4 gradient-text">Brand Jingles & Motion Graphics</h1>
+                <p class="text-xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
+                    Creating signature audio and visual moments that build brand recognition through custom jingles and animated logos
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 mb-6">
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Audio Branding</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Motion Graphics</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Jingle Composition</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Brand Identity</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Overview -->
+        <div class="project-overview bg-gradient-to-r from-secondary-dark to-primary-dark p-6 rounded-2xl mb-8 border-l-4 border-accent">
+            <div class="grid md:grid-cols-3 gap-6 text-center">
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">3</div>
+                    <div class="text-gray-400 text-sm">Jingle Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">3-7s</div>
+                    <div class="text-gray-400 text-sm">Duration Range</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">Multi-Use</div>
+                    <div class="text-gray-400 text-sm">Platform Ready</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Jingle Showcase -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Jingle Portfolio
+            </h2>
+
+            <!-- Logo Jingle -->
+            <div class="jingle-project bg-primary-dark/30 p-6 rounded-xl border border-gray-700 mb-6">
+                <h3 class="text-2xl font-bold text-accent mb-4 flex items-center">
+                    <span class="text-lg mr-2">🏢</span>
+                    Logo Jingle - Brand Identity Sound
+                </h3>
+                <div class="video-container mb-4 bg-black rounded-lg overflow-hidden">
+                    <video controls class="w-full h-auto max-w-2xl mx-auto" poster="images/logo-jingle-poster.jpg">
+                        <source src="images/logo-jingle.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="jingle-details">
+                    <p class="text-gray-300 mb-3">
+                        <strong>Concept:</strong> A signature audio logo that creates instant brand recognition. This jingle is designed to be memorable, versatile, and perfectly synchronized with logo animations for a cohesive brand experience across all digital platforms.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-xs">Brand Identity</span>
+                        <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-xs">Memorable</span>
+                        <span class="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-xs">Versatile</span>
+                    </div>
+                    <div class="mt-4 bg-accent/10 p-4 rounded-lg border border-accent/30">
+                        <div class="flex items-center mb-2">
+                            <span class="text-accent mr-2">🎯</span>
+                            <span class="font-semibold text-accent">Use Cases</span>
+                        </div>
+                        <p class="text-gray-300 text-sm">Video intros, website loading sequences, social media content, presentations, and digital advertising.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Merch Jingle -->
+            <div class="jingle-project bg-primary-dark/30 p-6 rounded-xl border border-gray-700">
+                <h3 class="text-2xl font-bold text-accent mb-4 flex items-center">
+                    <span class="text-lg mr-2">🛍️</span>
+                    Merch Jingle - Product Promotion Sound
+                </h3>
+                <div class="video-container mb-4 bg-black rounded-lg overflow-hidden">
+                    <video controls class="w-full h-auto max-w-2xl mx-auto" poster="images/merch-jingle-poster.jpg">
+                        <source src="images/merch-jingle.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="jingle-details">
+                    <p class="text-gray-300 mb-3">
+                        <strong>Concept:</strong> An energetic promotional jingle designed specifically for merchandise campaigns. This composition creates excitement around products, drives engagement, and enhances the shopping experience with catchy, action-oriented audio.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-orange-500/20 text-orange-300 px-3 py-1 rounded-full text-xs">Promotional</span>
+                        <span class="bg-red-500/20 text-red-300 px-3 py-1 rounded-full text-xs">Energetic</span>
+                        <span class="bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full text-xs">Action-Oriented</span>
+                    </div>
+                    <div class="mt-4 bg-accent/10 p-4 rounded-lg border border-accent/30">
+                        <div class="flex items-center mb-2">
+                            <span class="text-accent mr-2">🎯</span>
+                            <span class="font-semibold text-accent">Use Cases</span>
+                        </div>
+                        <p class="text-gray-300 text-sm">Product reveal videos, e-commerce platforms, social media ads, promotional content, and in-store announcements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+         <!-- Logo Jingle -->
+            <div class="jingle-project bg-primary-dark/30 p-6 rounded-xl border border-gray-700 mb-6">
+                <h3 class="text-2xl font-bold text-accent mb-4 flex items-center">
+                    <span class="text-lg mr-2">🏢</span>
+                    Logo Jingle - Brand Identity Sound
+                </h3>
+                <div class="video-container mb-4 bg-black rounded-lg overflow-hidden">
+                    <video controls class="w-full h-auto max-w-2xl mx-auto" poster="images/logo-jingle-poster.jpg">
+                        <source src="images/jingle-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div class="jingle-details">
+                    <p class="text-gray-300 mb-3">
+                        <strong>Concept:</strong> A signature audio logo that creates instant brand recognition. This jingle is designed to be memorable, versatile, and perfectly synchronized with logo animations for a cohesive brand experience across all digital platforms.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-blue-500/20 text-blue-300 px-3 py-1 rounded-full text-xs">Brand Identity</span>
+                        <span class="bg-green-500/20 text-green-300 px-3 py-1 rounded-full text-xs">Memorable</span>
+                        <span class="bg-purple-500/20 text-purple-300 px-3 py-1 rounded-full text-xs">Versatile</span>
+                    </div>
+                    <div class="mt-4 bg-accent/10 p-4 rounded-lg border border-accent/30">
+                        <div class="flex items-center mb-2">
+                            <span class="text-accent mr-2">🎯</span>
+                            <span class="font-semibold text-accent">Use Cases</span>
+                        </div>
+                        <p class="text-gray-300 text-sm">Video intros, website loading sequences, social media content, presentations, and digital advertising.</p>
+                    </div>
+                </div>
+            </div>
+
+             
+
+        <!-- Technical Breakdown -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Technical Approach
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="audio-techniques">
+                    <h3 class="text-xl font-semibold text-accent mb-3">Audio Composition</h3>
+                    <ul class="text-gray-300 space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Melodic Structure:</strong> Catchy, memorable hooks that stick in memory
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Rhythmic Foundation:</strong> Driving beats that create energy and movement
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Sound Design:</strong> Custom sounds that reflect brand personality
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Mixing & Mastering:</strong> Optimized for all playback environments
+                        </li>
+                    </ul>
+                </div>
+                <div class="creative-approach">
+                    <h3 class="text-xl font-semibold text-accent mb-3">Creative Strategy</h3>
+                    <ul class="text-gray-300 space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Emotional connection through musical elements
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Brand-aligned instrumentation and tonality
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Versatility across different media formats
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Scalability for future brand expansions
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Jingle Specifications -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Jingle Specifications
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="logo-jingle-specs">
+                    <div class="bg-primary-dark/50 p-4 rounded-lg border border-accent/20">
+                        <h4 class="font-bold text-accent mb-3 text-lg">Logo Jingle</h4>
+                        <ul class="text-gray-300 space-y-2 text-sm">
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                <strong>Duration:</strong> 3-5 seconds
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                <strong>Purpose:</strong> Brand recognition & identity
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                <strong>Tone:</strong> Professional, memorable, versatile
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                <strong>Key Feature:</strong> Syncs perfectly with logo animation
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="merch-jingle-specs">
+                    <div class="bg-primary-dark/50 p-4 rounded-lg border border-accent/20">
+                        <h4 class="font-bold text-accent mb-3 text-lg">Merch Jingle</h4>
+                        <ul class="text-gray-300 space-y-2 text-sm">
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                <strong>Duration:</strong> 5-7 seconds
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                <strong>Purpose:</strong> Product promotion & excitement
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                <strong>Tone:</strong> Energetic, catchy, action-oriented
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                <strong>Key Feature:</strong> Drives engagement and sales
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Delivery Formats -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Delivery & Formats
+            </h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="format-card bg-primary-dark/50 p-4 rounded-lg text-center">
+                    <div class="text-2xl mb-2">🎵</div>
+                    <h4 class="font-bold text-accent mb-2">Audio Files</h4>
+                    <p class="text-gray-400 text-sm">WAV, MP3, AIFF in multiple lengths</p>
+                </div>
+                <div class="format-card bg-primary-dark/50 p-4 rounded-lg text-center">
+                    <div class="text-2xl mb-2">🎬</div>
+                    <h4 class="font-bold text-accent mb-2">Video Files</h4>
+                    <p class="text-gray-400 text-sm">MP4, MOV with and without animations</p>
+                </div>
+                <div class="format-card bg-primary-dark/50 p-4 rounded-lg text-center">
+                    <div class="text-2xl mb-2">📱</div>
+                    <h4 class="font-bold text-accent mb-2">Social Media</h4>
+                    <p class="text-gray-400 text-sm">Platform-optimized versions</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Quote -->
+        <div class="mt-8 bg-gradient-to-r from-accent/10 to-transparent p-6 rounded-2xl border-l-4 border-accent">
+            <blockquote class="text-lg italic text-gray-300 text-center">
+                "A great jingle is more than just music.it's an audio handshake that introduces your brand, a musical memory that stays with your audience, and a sonic signature that sets you apart in a crowded marketplace."
+            </blockquote>
+            <p class="text-accent text-center mt-3 font-semibold">— Audio Branding Philosophy</p>
+        </div>
+    `,
+    tags: ["audio-branding", "jingles", "video", "motion-graphics", "sound-design", "brand-identity", "short-form", "video"],
+    enhancedTags: {
+        tools: ["Ableton Live", "Logic Pro", "After Effects", "Premiere Pro", "Audio Plugins"],
+        methods: ["Jingle Composition", "Audio Branding", "Motion Graphics", "Sound Design", "Multi-format Delivery"],
+        skills: ["Audio Production", "Music Composition", "Sound Design", "Brand Strategy", "Motion Graphics"]
+    },
+    figma: null,
+    github: null,
+    live: null,
+    caseStudy: true,
+    projectType: "audio-branding",
+    images: [
+        
+        'images/fb-ani.jpg', 
+        'images/fb-ani2.jpg'
+        
+    ],
+    thumbnail: 'images/merch-1.jpg'
 }
 ];
 
