@@ -2435,9 +2435,9 @@ const projects = [
         caseStudy: true,
         projectType: "ui-ux",
         images: [
-            'images/home.png',
-            'images/account.png',
-            'images/transfer.png',
+            'images/Home.png',
+            'images/Account.png',
+            'images/Transfer.png',
             'images/more.png',
             'images/cards.png'
         ],
