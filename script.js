@@ -1739,6 +1739,166 @@ const projects = [
     ],
     thumbnail: 'images/bike.png'
 },
+
+{
+    id: 17,
+    title: "PantryChef – AI-Powered Food Waste Reduction Platform",
+    summary: "A smart web application that uses AI-driven recipe matching and kitchen management tools to reduce household food waste.",
+    description: `
+        <!-- Hero Section -->
+        <div class="case-study-hero mb-8">
+            <div class="text-center mb-8">
+                <h1 class="text-4xl md:text-5xl font-bold text-accent mb-4 gradient-text">PantryChef</h1>
+                <p class="text-xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
+                    Designing and developing an AI-powered platform that helps users turn leftovers into meals, reduce food waste, and build sustainable cooking habits
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 mb-6">
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Web Application</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">AI Integration</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Sustainability</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Food Tech</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">UI/UX</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Overview -->
+        <div class="project-overview bg-gradient-to-r from-secondary-dark to-primary-dark p-6 rounded-2xl mb-8 border-l-4 border-accent">
+            <div class="grid md:grid-cols-4 gap-6 text-center">
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">10+</div>
+                    <div class="text-gray-400 text-sm">Core Features</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">AI</div>
+                    <div class="text-gray-400 text-sm">Recipe Matching Logic</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">100%</div>
+                    <div class="text-gray-400 text-sm">Responsive Design</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">WCAG</div>
+                    <div class="text-gray-400 text-sm">Accessibility Focused</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Context -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Project Overview
+            </h2>
+            <div class="bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                <p class="text-lg text-gray-300 mb-4 leading-relaxed">
+                    PantryChef was created to address a common but often overlooked problem: household food waste.
+                    Many people discard ingredients simply because they don’t know what to cook with what they already have.
+                    The goal was to design an intuitive platform that combines AI-driven recipe discovery with smart kitchen management.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6 mt-6">
+                    <div class="challenge">
+                        <h3 class="text-xl font-semibold text-accent mb-3 flex items-center">
+                            <span class="text-lg mr-2">🎯</span>
+                            The Challenge
+                        </h3>
+                        <ul class="text-gray-300 space-y-2">
+                            <li class="flex items-start"><span class="text-accent mr-2">•</span>Help users cook with limited, leftover ingredients</li>
+                            <li class="flex items-start"><span class="text-accent mr-2">•</span>Design an AI experience that feels simple, not overwhelming</li>
+                            <li class="flex items-start"><span class="text-accent mr-2">•</span>Encourage sustainable habits without adding friction</li>
+                            <li class="flex items-start"><span class="text-accent mr-2">•</span>Present complex features in a clear, friendly interface</li>
+                        </ul>
+                    </div>
+                    <div class="solution">
+                        <h3 class="text-xl font-semibold text-accent mb-3 flex items-center">
+                            <span class="text-lg mr-2">💡</span>
+                            The Solution
+                        </h3>
+                        <ul class="text-gray-300 space-y-2">
+                            <li class="flex items-start"><span class="text-accent mr-2">•</span>AI-powered recipe matching based on pantry ingredients</li>
+                            <li class="flex items-start"><span class="text-accent mr-2">•</span>Smart shopping lists and expiration tracking</li>
+                            <li class="flex items-start"><span class="text-accent mr-2">•</span>Educational cooking techniques to improve confidence</li>
+                            <li class="flex items-start"><span class="text-accent mr-2">•</span>Community-driven Q&A and recipe sharing</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Process -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Design & Development Process
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-4 flex items-center">
+                        <span class="text-lg mr-2">🎨</span>
+                        Visual Design
+                    </h3>
+                    <ul class="text-gray-300 space-y-3">
+                        <li><span class="text-accent mr-2">•</span><strong>Color Palette:</strong> Warm neutrals with green accents to reflect sustainability</li>
+                        <li><span class="text-accent mr-2">•</span><strong>Typography:</strong> Clean, modern fonts prioritizing readability</li>
+                        <li><span class="text-accent mr-2">•</span><strong>Layout:</strong> Card-based sections for clarity and scannability</li>
+                        <li><span class="text-accent mr-2">•</span><strong>Imagery:</strong> Food-focused visuals to create appetite appeal</li>
+                    </ul>
+                </div>
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-4 flex items-center">
+                        <span class="text-lg mr-2">⚡</span>
+                        Technical Implementation
+                    </h3>
+                    <ul class="text-gray-300 space-y-3">
+                        <li><span class="text-accent mr-2">•</span><strong>Framework:</strong> React with TypeScript</li>
+                        <li><span class="text-accent mr-2">•</span><strong>Styling:</strong> Tailwind CSS for consistency and speed</li>
+                        <li><span class="text-accent mr-2">•</span><strong>State Management:</strong> React Hooks and LocalStorage</li>
+                        <li><span class="text-accent mr-2">•</span><strong>Accessibility:</strong> WCAG 2.1 AA compliant components</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Results -->
+        <div class="mt-8 bg-gradient-to-r from-accent/10 to-transparent p-6 rounded-2xl border-l-4 border-accent">
+            <h3 class="text-2xl font-bold text-accent mb-4 text-center">Project Impact</h3>
+            <div class="grid md:grid-cols-3 gap-6 text-center">
+                <div class="stat-card">
+                    <div class="text-2xl font-bold text-accent mb-2">Reduced</div>
+                    <div class="text-gray-400 text-sm">Household Food Waste</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-2xl font-bold text-accent mb-2">Improved</div>
+                    <div class="text-gray-400 text-sm">Cooking Confidence</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-2xl font-bold text-accent mb-2">Promoted</div>
+                    <div class="text-gray-400 text-sm">Sustainable Habits</div>
+                </div>
+            </div>
+            <p class="text-gray-300 text-center mt-4 italic">
+                "PantryChef demonstrates how thoughtful design and AI can work together to solve real-world sustainability challenges."
+            </p>
+        </div>
+    `,
+    tags: ["web-dev", "ai", "sustainability", "food-tech", "responsive-design"],
+    enhancedTags: {
+        tools: ["React", "TypeScript", "Tailwind CSS", "LocalStorage", "GitHub Pages"],
+        methods: ["AI-Assisted UX", "Component-Based Architecture", "Mobile-First Design", "Accessibility-First"],
+        skills: ["Frontend Development", "UI/UX Design", "Product Thinking", "Sustainable Design"]
+    },
+    github: "https://github.com/busa0019/PantryChef",
+    live: "https://pantry-chef-brown.vercel.app/",
+    caseStudy: true,
+    projectType: "web-app",
+    images: [
+        "images/chef-2.jpg",
+        "images/chef-3.jpg",
+        "images/chef-4.jpg",
+    ],
+    thumbnail: "images/chef-1.jpg"
+},
+
    {
     id: 1,
     title: "Multi-Modal Voice UI Design: Voice Kitchen Assistant App",
