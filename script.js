@@ -716,6 +716,317 @@ const projects = [
     ],
     thumbnail: 'images/on-road.png'
 },
+{
+    id: 12,
+    title: "Aisha Health & Wellness Initiative (AHWI)",
+    summary: "A comprehensive website redesign for a nonprofit organization focused on women's health in rural Nigeria.",
+    description: `
+        <!-- Hero Section -->
+        <div class="case-study-hero mb-8">
+            <div class="text-center mb-8">
+                <h1 class="text-4xl md:text-5xl font-bold text-accent mb-4 gradient-text">AHWI Website Redesign</h1>
+                <p class="text-xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
+                    Transforming a grassroots health initiative's digital presence with an engaging, accessible website that drives donations and community engagement
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 mb-6">
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Web Development</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">UI/UX Design</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Nonprofit</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Healthcare</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Community</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Overview -->
+        <div class="project-overview bg-gradient-to-r from-secondary-dark to-primary-dark p-6 rounded-2xl mb-8 border-l-4 border-accent">
+            <div class="grid md:grid-cols-4 gap-6 text-center">
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">5</div>
+                    <div class="text-gray-400 text-sm">Main Pages</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">3D</div>
+                    <div class="text-gray-400 text-sm">Interactive Elements</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">100%</div>
+                    <div class="text-gray-400 text-sm">Mobile Responsive</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">2</div>
+                    <div class="text-gray-400 text-sm">Interactive Forms</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Context -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Project Overview
+            </h2>
+            <div class="bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                <p class="text-lg text-gray-300 mb-4 leading-relaxed">
+                    The Aisha Health and Wellness Initiative needed a modern, engaging website to increase community awareness, drive donations, and provide accessible health resources for women in Ogun Waterside, Nigeria. The previous digital presence was minimal and did not effectively communicate their impact or mission.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6 mt-6">
+                    <div class="challenge">
+                        <h3 class="text-xl font-semibold text-accent mb-3 flex items-center">
+                            <span class="text-lg mr-2">🎯</span>
+                            The Challenge
+                        </h3>
+                        <ul class="text-gray-300 space-y-2">
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Create an engaging platform for a nonprofit with limited resources
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Design for low-bandwidth environments in rural Nigeria
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Build trust and credibility for donation appeals
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Make health resources easily accessible and downloadable
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="solution">
+                        <h3 class="text-xl font-semibold text-accent mb-3 flex items-center">
+                            <span class="text-lg mr-2">💡</span>
+                            The Solution
+                        </h3>
+                        <ul class="text-gray-300 space-y-2">
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Modern, responsive design with performance optimization
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Interactive 3D elements for enhanced engagement
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Integrated donation system with progress tracking
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Appointment booking and newsletter subscription features
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Process -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Design & Development Process
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-4 flex items-center">
+                        <span class="text-lg mr-2">🎨</span>
+                        Visual Design
+                    </h3>
+                    <ul class="text-gray-300 space-y-3">
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Color Palette:</strong> Deep teal for trust, coral for action, gold for hope
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Typography:</strong> Inter font family for readability and modern aesthetic
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Imagery:</strong> Authentic photos showcasing real community impact
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Layout:</strong> Clean, organized sections with clear visual hierarchy
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-4 flex items-center">
+                        <span class="text-lg mr-2">⚡</span>
+                        Technical Implementation
+                    </h3>
+                    <ul class="text-gray-300 space-y-3">
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Framework:</strong> Pure HTML, CSS, and JavaScript for optimal performance
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Styling:</strong> Tailwind CSS for rapid development and consistency
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Interactivity:</strong> Custom JavaScript for animations and form handling
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Responsive:</strong> Mobile-first design ensuring accessibility across devices
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Features -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Key Features
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-3">Interactive 3D Elements</h3>
+                    <p class="text-gray-300 mb-4">
+                        Implemented subtle 3D animations and hover effects to create an engaging user experience without compromising performance.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">CSS 3D Transforms</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Custom Cursor</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Hover Animations</span>
+                    </div>
+                </div>
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-3">Donation System</h3>
+                    <p class="text-gray-300 mb-4">
+                        Built an intuitive donation interface with preset amounts, custom input, and visual progress tracking to encourage contributions.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Progress Bars</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Form Validation</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Modal Interface</span>
+                    </div>
+                </div>
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-3">Appointment Booking</h3>
+                    <p class="text-gray-300 mb-4">
+                        Created a streamlined appointment system for health services, workshops, and screenings with form validation and confirmation.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Service Selection</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Date Picker</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Form Handling</span>
+                    </div>
+                </div>
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-3">Resource Library</h3>
+                    <p class="text-gray-300 mb-4">
+                        Developed an organized resource section with downloadable health guides and educational materials tailored to the local community.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">PDF Downloads</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Categorized Content</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Visual Organization</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Highlights -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Technical Highlights
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="learning-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-4">Performance Optimization</h3>
+                    <ul class="text-gray-300 space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Optimized images for fast loading in low-bandwidth areas
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Minimal JavaScript with efficient animations
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Progressive enhancement for accessibility
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Reduced motion support for users with preferences
+                        </li>
+                    </ul>
+                </div>
+                <div class="learning-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-4">User Experience</h3>
+                    <ul class="text-gray-300 space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Intuitive navigation with clear call-to-action buttons
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Consistent visual language throughout the site
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Mobile-first responsive design approach
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Accessible color contrast and font sizes
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Results -->
+        <div class="mt-8 bg-gradient-to-r from-accent/10 to-transparent p-6 rounded-2xl border-l-4 border-accent">
+            <h3 class="text-2xl font-bold text-accent mb-4 text-center">Project Impact</h3>
+            <div class="grid md:grid-cols-3 gap-6 text-center">
+                <div class="stat-card">
+                    <div class="text-2xl font-bold text-accent mb-2">Enhanced</div>
+                    <div class="text-gray-400 text-sm">Digital Presence</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-2xl font-bold text-accent mb-2">Streamlined</div>
+                    <div class="text-gray-400 text-sm">Donation Process</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-2xl font-bold text-accent mb-2">Improved</div>
+                    <div class="text-gray-400 text-sm">Community Engagement</div>
+                </div>
+            </div>
+            <p class="text-gray-300 text-center mt-4 italic">
+                "The AHWI website successfully bridges technology and community needs, creating a platform that serves both the organization and the women of Ogun Waterside."
+            </p>
+        </div>
+    `,
+    tags: ["web-development", "nonprofit", "healthcare", "community", "responsive-design"],
+    enhancedTags: {
+        tools: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Font Awesome", "Google Fonts"],
+        methods: ["Mobile-First Design", "3D Animations", "Form Handling", "Performance Optimization", "Accessibility"],
+        skills: ["Frontend Development", "UI/UX Design", "Interactive Design", "Responsive Layout", "User Experience"]
+    },
+    github: "https://github.com/busa0019/aiwi",
+    live: "https://aiwi.vercel.app/",
+    caseStudy: true,
+    projectType: "web-dev",
+    images: [
+        'images/h1.jpg',
+        'images/h2.jpg',
+        'images/hero.jpg'
+    ],
+    thumbnail: 'images/hero.jpg'
+},
+
    {
     id: 10,
     title: "Dirt Therapy: Adventure Motorcycling Platform",
