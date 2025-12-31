@@ -1009,7 +1009,7 @@ const projects = [
             </p>
         </div>
     `,
-    tags: ["web-development", "nonprofit", "healthcare", "community", "responsive-design"],
+    tags: ["web-dev", "nonprofit", "healthcare", "community", "responsive-design"],
     enhancedTags: {
         tools: ["HTML5", "CSS3", "JavaScript", "Tailwind CSS", "Font Awesome", "Google Fonts"],
         methods: ["Mobile-First Design", "3D Animations", "Form Handling", "Performance Optimization", "Accessibility"],
@@ -1020,11 +1020,10 @@ const projects = [
     caseStudy: true,
     projectType: "web-dev",
     images: [
-        'images/h1.jpg',
-        'images/h2.jpg',
-        'images/hero.jpg'
+        'images/aiwi-2.png',
+        'images/aiwi-3.png'
     ],
-    thumbnail: 'images/hero.jpg'
+    thumbnail: 'images/aiwi-1.jpg'
 },
 
    {
