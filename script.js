@@ -717,7 +717,7 @@ const projects = [
     thumbnail: 'images/on-road.png'
 },
 {
-    id: 12,
+    id: 16,
     title: "Aisha Health & Wellness Initiative (AHWI)",
     summary: "A comprehensive website redesign for a nonprofit organization focused on women's health in rural Nigeria.",
     description: `
