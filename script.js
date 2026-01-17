@@ -1009,7 +1009,7 @@ const projects = [
             </p>
         </div>
     `,
-    tags: ["web-dev","brand-identity, "react", "tailwind", "responsive-design", "portfolio"],
+    tags: ["web-dev","brand-identity", "react", "tailwind", "responsive-design", "portfolio"],
     enhancedTags: {
         tools: ["React.js", "Tailwind CSS", "React Icons", "AOS", "Git", "GitHub"],
         methods: ["Mobile-First Design", "Component Architecture", "State Management", "Performance Optimization", "Responsive Layout"],
