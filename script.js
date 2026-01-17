@@ -717,6 +717,319 @@ const projects = [
     thumbnail: 'images/on-road.png'
 },
 {
+    id: 17,
+    title: "Pixel Forge Studios Website & Brand Identity",
+    summary: "A comprehensive brand identity and website development project for a digital design agency specializing in modern web solutions.",
+    description: `
+        <!-- Hero Section -->
+        <div class="case-study-hero mb-8">
+            <div class="text-center mb-8">
+                <h1 class="text-4xl md:text-5xl font-bold text-accent mb-4 gradient-text">Pixel Forge Studios Brand & Website</h1>
+                <p class="text-xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
+                    Developing a complete brand identity and responsive website for a digital design agency to showcase expertise, attract clients, and demonstrate design capabilities
+                </p>
+                <div class="flex flex-wrap justify-center gap-3 mb-6">
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Brand Identity</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Web Development</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">UI/UX Design</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Agency Portfolio</span>
+                    <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Responsive Design</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Overview -->
+        <div class="project-overview bg-gradient-to-r from-secondary-dark to-primary-dark p-6 rounded-2xl mb-8 border-l-4 border-accent">
+            <div class="grid md:grid-cols-4 gap-6 text-center">
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">8</div>
+                    <div class="text-gray-400 text-sm">Main Sections</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">100+</div>
+                    <div class="text-gray-400 text-sm">Components Built</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">100%</div>
+                    <div class="text-gray-400 text-sm">Performance Score</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-3xl font-bold text-accent mb-2">4</div>
+                    <div class="text-gray-400 text-sm">Interactive Features</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Context -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Project Overview
+            </h2>
+            <div class="bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                <p class="text-lg text-gray-300 mb-4 leading-relaxed">
+                    Pixel Forge Studios needed a modern, high-performance website that not only showcases their design capabilities but also serves as a lead generation tool for attracting potential clients. The website needed to reflect their expertise in digital design while providing an intuitive user experience.
+                </p>
+                <div class="grid md:grid-cols-2 gap-6 mt-6">
+                    <div class="challenge">
+                        <h3 class="text-xl font-semibold text-accent mb-3 flex items-center">
+                            <span class="text-lg mr-2">🎯</span>
+                            The Challenge
+                        </h3>
+                        <ul class="text-gray-300 space-y-2">
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Create a brand identity that stands out in the competitive design agency space
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Design a portfolio website that demonstrates design expertise through its own execution
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Implement smooth animations and interactions without compromising performance
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Create an intuitive navigation structure that guides visitors to conversion points
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="solution">
+                        <h3 class="text-xl font-semibold text-accent mb-3 flex items-center">
+                            <span class="text-lg mr-2">💡</span>
+                            The Solution
+                        </h3>
+                        <ul class="text-gray-300 space-y-2">
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Developed a distinctive brown (#4b3f28) and cream (#f9f6f1) color palette for sophistication
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Built a responsive React application with Tailwind CSS for rapid development
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Implemented smooth scroll navigation and AOS animations for enhanced UX
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-accent mr-2">•</span>
+                                Created interactive components including testimonials slider and process cards
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Process -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Brand & Design System
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-4 flex items-center">
+                        <span class="text-lg mr-2">🎨</span>
+                        Visual Identity
+                    </h3>
+                    <ul class="text-gray-300 space-y-3">
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Color Palette:</strong> Primary brown (#4b3f28) for trust, cream (#f9f6f1) for background, white for contrast
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Typography:</strong> Sans-serif fonts for modernity and readability
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Logo:</strong> Minimalist design reflecting digital craftsmanship
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Design Language:</strong> Clean lines, generous spacing, subtle shadows
+                        </li>
+                    </ul>
+                </div>
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-4 flex items-center">
+                        <span class="text-lg mr-2">⚡</span>
+                        Technical Architecture
+                    </h3>
+                    <ul class="text-gray-300 space-y-3">
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Frontend:</strong> React.js with functional components and hooks
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Styling:</strong> Tailwind CSS utility-first framework
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Animations:</strong> AOS library for scroll-triggered animations
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            <strong>Icons:</strong> React Icons library for scalable vector icons
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Features -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Website Features
+            </h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-3">Responsive Navigation</h3>
+                    <p class="text-gray-300 mb-4">
+                        Developed a mobile-first navigation system with hamburger menu for mobile and full menu for desktop, featuring smooth transitions and accessibility compliance.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Mobile-First</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">React State</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Smooth Transitions</span>
+                    </div>
+                </div>
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-3">Interactive Testimonials</h3>
+                    <p class="text-gray-300 mb-4">
+                        Built an auto-rotating testimonials slider with manual navigation controls, responsive design, and smooth animations using React hooks and refs.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Auto-Rotation</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Touch Navigation</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">React Hooks</span>
+                    </div>
+                </div>
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-3">Process Showcase</h3>
+                    <p class="text-gray-300 mb-4">
+                        Created an interactive 6-step process section with hover effects, animated transitions, and a clear visual hierarchy to explain the agency's workflow.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Grid Layout</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Hover Effects</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Visual Hierarchy</span>
+                    </div>
+                </div>
+                <div class="feature-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-3">Contact System</h3>
+                    <p class="text-gray-300 mb-4">
+                        Developed a comprehensive contact section with form validation, responsive layout, and smooth scroll functionality for seamless user interaction.
+                    </p>
+                    <div class="flex flex-wrap gap-2">
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Form Validation</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">React State</span>
+                        <span class="bg-accent/20 text-accent px-3 py-1 rounded-full text-xs">Smooth Scroll</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Highlights -->
+        <section class="mb-8">
+            <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+                <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+                Technical Implementation
+            </h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <div class="learning-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-4">Performance Optimization</h3>
+                    <ul class="text-gray-300 space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Code splitting for faster initial load times
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Optimized images and assets for web delivery
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Efficient state management with React hooks
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Minimal dependencies for reduced bundle size
+                        </li>
+                    </ul>
+                </div>
+                <div class="learning-card bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+                    <h3 class="text-xl font-semibold text-accent mb-4">Development Workflow</h3>
+                    <ul class="text-gray-300 space-y-2">
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Component-based architecture for reusability
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Mobile-first responsive design approach
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Git version control with feature branching
+                        </li>
+                        <li class="flex items-start">
+                            <span class="text-accent mr-2">•</span>
+                            Continuous deployment setup with GitHub
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Final Results -->
+        <div class="mt-8 bg-gradient-to-r from-accent/10 to-transparent p-6 rounded-2xl border-l-4 border-accent">
+            <h3 class="text-2xl font-bold text-accent mb-4 text-center">Project Impact</h3>
+            <div class="grid md:grid-cols-3 gap-6 text-center">
+                <div class="stat-card">
+                    <div class="text-2xl font-bold text-accent mb-2">Enhanced</div>
+                    <div class="text-gray-400 text-sm">Brand Presence</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-2xl font-bold text-accent mb-2">Improved</div>
+                    <div class="text-gray-400 text-sm">Lead Generation</div>
+                </div>
+                <div class="stat-card">
+                    <div class="text-2xl font-bold text-accent mb-2">Streamlined</div>
+                    <div class="text-gray-400 text-sm">Client Onboarding</div>
+                </div>
+            </div>
+            <p class="text-gray-300 text-center mt-4 italic">
+                "The Pixel Forge Studios website serves as both a functional business tool and a portfolio piece, demonstrating design expertise while effectively converting visitors into potential clients."
+            </p>
+        </div>
+    `,
+    tags: ["brand-identity", "web-development", "react", "tailwind", "responsive-design", "portfolio"],
+    enhancedTags: {
+        tools: ["React.js", "Tailwind CSS", "React Icons", "AOS", "Git", "GitHub"],
+        methods: ["Mobile-First Design", "Component Architecture", "State Management", "Performance Optimization", "Responsive Layout"],
+        skills: ["Frontend Development", "UI/UX Design", "Brand Identity", "React Development", "Web Performance"]
+    },
+    github: "https://github.com/busa0019/pixel-forge",
+    live: "https://pixel-forge-delta.vercel.app/", 
+    caseStudy: true,
+    projectType: "web-dev",
+    images: [
+        'images/pixel.jpg',
+        'images/pixel-2.jpg',
+        'images/pixel-1.jpg',
+        'images/pixel-3.jpg',
+        'images/pixel-4.jpg',
+    ],
+    thumbnail: 'images/pixel.jpg'
+},
+
+{
     id: 16,
     title: "Aisha Health & Wellness Initiative (AHWI)",
     summary: "A comprehensive website redesign for a nonprofit organization focused on women's health in rural Nigeria.",
