@@ -716,6 +716,155 @@ const projects = [
     ],
     thumbnail: 'images/on-road.png'
 },
+
+{
+  id: 18,
+  title: "ECRMI Portal — Membership & Training Management Platform",
+  summary: "A production-grade full-stack portal for membership onboarding, course delivery with CBT assessments, automated PDF certificates/letters, and QR-based certificate verification—deployed on a VPS with PM2 + Nginx.",
+  description: `
+    <div class="case-study-hero mb-8">
+      <div class="text-center mb-8">
+        <h1 class="text-4xl md:text-5xl font-bold text-accent mb-4 gradient-text">ECRMI Portal</h1>
+        <p class="text-xl text-gray-300 mb-6 max-w-3xl mx-auto leading-relaxed">
+          Membership onboarding + training delivery + secure certificate automation (PDF + QR verification) in one production platform.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3 mb-6">
+          <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">Next.js (App Router)</span>
+          <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">MongoDB Atlas</span>
+          <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">CBT Engine</span>
+          <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">PDF + QR Verification</span>
+          <span class="bg-accent/20 text-accent px-4 py-2 rounded-full text-sm font-medium border border-accent/30">VPS Deployment</span>
+        </div>
+        <div class="bg-gradient-to-r from-accent/20 to-purple-500/20 p-4 rounded-2xl border border-accent/30 max-w-2xl mx-auto">
+          <p class="text-lg text-gray-200 font-semibold">
+            Built with Next.js + TypeScript + MongoDB, deployed with PM2 + Nginx, featuring automated certificates and public QR verification.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-overview bg-gradient-to-r from-secondary-dark to-primary-dark p-6 rounded-2xl mb-8 border-l-4 border-accent">
+      <div class="grid md:grid-cols-4 gap-6 text-center">
+        <div class="stat-card">
+          <div class="text-3xl font-bold text-accent mb-2">6+</div>
+          <div class="text-gray-400 text-sm">Core Modules</div>
+        </div>
+        <div class="stat-card">
+          <div class="text-3xl font-bold text-accent mb-2">VPS</div>
+          <div class="text-gray-400 text-sm">Production Deploy</div>
+        </div>
+        <div class="stat-card">
+          <div class="text-3xl font-bold text-accent mb-2">PDF</div>
+          <div class="text-gray-400 text-sm">Auto Generation</div>
+        </div>
+        <div class="stat-card">
+          <div class="text-3xl font-bold text-accent mb-2">QR</div>
+          <div class="text-gray-400 text-sm">Verification</div>
+        </div>
+      </div>
+      <div class="mt-6 text-center">
+        <p class="text-gray-300"><strong>Role:</strong> Full-Stack Developer | <strong>Status:</strong> Live Production</p>
+      </div>
+    </div>
+
+    <section class="mb-8">
+      <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+        <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+        Overview
+      </h2>
+      <div class="bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+        <p class="text-lg text-gray-300 leading-relaxed">
+          ECRMI Portal is a full-stack platform that manages membership onboarding and approvals, delivers training courses with CBT assessments,
+          and automatically issues verified PDF certificates and letters. Each certificate includes a QR code that enables public authenticity checks.
+        </p>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+        <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+        Core Modules
+      </h2>
+      <div class="grid md:grid-cols-2 gap-4">
+        <div class="feature-card bg-primary-dark/50 p-4 rounded-lg border border-gray-600 hover:border-accent/50 transition duration-300">
+          <h3 class="font-bold text-gray-100 mb-2">Membership Management</h3>
+          <p class="text-gray-400 text-sm">
+            Application submission (documents + receipts), admin review/approval workflow, membership number generation, and history tracking.
+          </p>
+        </div>
+        <div class="feature-card bg-primary-dark/50 p-4 rounded-lg border border-gray-600 hover:border-accent/50 transition duration-300">
+          <h3 class="font-bold text-gray-100 mb-2">Training Platform (Courses + CBT)</h3>
+          <p class="text-gray-400 text-sm">
+            Courses with learning materials, timed CBT assessments, review-before-submit, auto-scoring, attempt limits, and lockout rules.
+          </p>
+        </div>
+        <div class="feature-card bg-primary-dark/50 p-4 rounded-lg border border-gray-600 hover:border-accent/50 transition duration-300">
+          <h3 class="font-bold text-gray-100 mb-2">Certificates & Letters (PDF)</h3>
+          <p class="text-gray-400 text-sm">
+            Automated PDF generation using <strong>pdf-lib</strong>, including membership certificates/letters and training certificates.
+          </p>
+        </div>
+        <div class="feature-card bg-primary-dark/50 p-4 rounded-lg border border-gray-600 hover:border-accent/50 transition duration-300">
+          <h3 class="font-bold text-gray-100 mb-2">QR-Based Verification</h3>
+          <p class="text-gray-400 text-sm">
+            Unique certificate IDs with QR codes that link to a public verification page to validate authenticity.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+        <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+        Admin Dashboard
+      </h2>
+      <div class="bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+        <ul class="text-gray-300 space-y-2">
+          <li><span class="text-accent mr-2">•</span>Course management + question bank management</li>
+          <li><span class="text-accent mr-2">•</span>Attempt tracking + certificate records</li>
+          <li><span class="text-accent mr-2">•</span>Access code generation & tracking (single-use enforcement)</li>
+          <li><span class="text-accent mr-2">•</span>Membership approval management</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="mb-8">
+      <h2 class="text-3xl font-bold text-gray-100 mb-6 flex items-center">
+        <span class="w-3 h-3 bg-accent rounded-full mr-3"></span>
+        Tech Stack & Deployment
+      </h2>
+      <div class="bg-primary-dark/50 p-6 rounded-xl border border-gray-700">
+        <ul class="text-gray-300 space-y-2">
+          <li><span class="text-accent mr-2">•</span><strong>Frontend:</strong> Next.js (App Router), TypeScript, Tailwind CSS</li>
+          <li><span class="text-accent mr-2">•</span><strong>Backend:</strong> Next.js API Routes</li>
+          <li><span class="text-accent mr-2">•</span><strong>Database:</strong> MongoDB Atlas + Mongoose</li>
+          <li><span class="text-accent mr-2">•</span><strong>PDF/QR:</strong> pdf-lib, qrcode</li>
+          <li><span class="text-accent mr-2">•</span><strong>Hosting:</strong> Ubuntu VPS + PM2 + Nginx</li>
+        </ul>
+      </div>
+    </section>
+  `,
+  tags: ["web-dev", "nextjs", "typescript", "mongodb", "pdf-generation", "qr-verification", "admin-dashboard", "vps-deployment"],
+  enhancedTags: {
+    tools: ["Next.js", "TypeScript", "MongoDB Atlas", "Mongoose", "Tailwind CSS", "pdf-lib", "qrcode", "PM2", "Nginx"],
+    methods: ["System Design", "Admin Workflow Design", "Access Control", "Production Deployment"],
+    skills: ["Full-Stack Development", "API Design", "Database Modeling", "Security-minded Implementation", "DevOps Deployment"]
+  },
+  figma: null,
+  github: "https://github.com/busa0019/ecrmi",
+  live: "https://ecrmiportal.cloud",
+  caseStudy: true,
+  projectType: "web-dev",
+  images: [
+    // Update these to your real file paths
+    "images/ecrmi-1.jpg",
+    "images/ecrmi-2.jpg",
+    "images/ecrmi-3.jpg",
+    "images/ecrmi-4.jpg"
+  ],
+  thumbnail: "images/ecrmi.jpg"
+},
+
 {
     id: 17,
     title: "Pixel Forge Studios Website & Brand Identity",
@@ -1387,7 +1536,7 @@ const projects = [
             </div>
             <div class="mt-6 text-center">
                 <p class="text-gray-300"><strong>Team Lead:</strong> Faoziyyah Busari | <strong>Client:</strong> John Boisvenue, Valley Rally Enduro</p>
-                <p class="text-gray-400 text-sm mt-2">Current Status: Redesign Complete - Awaiting Client Content for WordPress Development</p>
+                <p class="text-gray-400 text-sm mt-2">Current Status: Redesign Complete - Client Not Ready to go Live Yet</p>
             </div>
         </div>
 
@@ -1408,15 +1557,8 @@ const projects = [
                         <span class="text-red-400 mr-2">🌐</span>
                         <span class="font-semibold text-red-400">Current Website Reference</span>
                     </div>
-                    <p class="text-gray-300 mb-2">The original website demonstrates the organizational and design challenges we aimed to solve:</p>
-                    <a href="https://www.dirttherapy.ca" 
-                       class="inline-flex items-center text-red-300 hover:text-red-200 underline"
-                       target="_blank">
-                        <svg class="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
-                        </svg>
-                        View Current Dirt Therapy Website
-                    </a>
+                    <p class="text-gray-300 mb-2">The original website demonstrates the organizational and design challenges we aimed to solve</p>
+                   
                 </div>
 
                 <div class="grid md:grid-cols-2 gap-4 mt-4">
@@ -1895,12 +2037,16 @@ const projects = [
                             <span class="text-gray-300 font-semibold">Phase 2: Design & Redesign</span>
                             <span class="bg-green-500 text-white px-2 py-1 rounded text-xs">Completed</span>
                         </div>
-                        <div class="flex items-center justify-between p-3 bg-yellow-500/10 rounded-lg border border-yellow-500/30">
+                        <div class="flex items-center justify-between p-3 bg-green-500/10 rounded-lg border border-green-500/30">
                             <span class="text-gray-300 font-semibold">Phase 3: Content Population</span>
-                            <span class="bg-yellow-500 text-white px-2 py-1 rounded text-xs">Awaiting Client</span>
+                            <span class="bg-green-500 text-white px-2 py-1 rounded text-xs">Completed</span>
                         </div>
-                        <div class="flex items-center justify-between p-3 bg-gray-500/10 rounded-lg border border-gray-500/30">
+                        <div class="flex items-center justify-between p-3 bg-green-500/10 rounded-lg border border-green-500/30">
                             <span class="text-gray-300 font-semibold">Phase 4: WordPress Development</span>
+                            <span class="bg-green-500 text-white px-2 py-1 rounded text-xs">Completed</span>
+                        </div>
+                         <div class="flex items-center justify-between p-3 bg-gray-500/10 rounded-lg border border-gray-500/30">
+                            <span class="text-gray-300 font-semibold">Phase 5: Live</span>
                             <span class="bg-gray-500 text-white px-2 py-1 rounded text-xs">Pending</span>
                         </div>
                     </div>
@@ -1993,26 +2139,31 @@ const projects = [
                                 <span class="text-green-400 mr-2">✓</span>
                                 User experience strategy and wireframing
                             </li>
+                             <li class="flex items-start">
+                                <span class="text-green-400 mr-2">✓</span>
+                                Client content delivery and organization
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-400 mr-2">✓</span>
+                                WordPress theme development and implementation
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-400 mr-2">✓</span>
+                                Content population and SEO optimization
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-green-400 mr-2">✓</span>
+                                Testing 
+                            </li>
                         </ul>
                     </div>
                     <div>
                         <h4 class="font-semibold text-gray-200 mb-2">Next Steps</h4>
                         <ul class="text-gray-300 space-y-1 text-sm">
+                           
                             <li class="flex items-start">
                                 <span class="text-blue-400 mr-2">→</span>
-                                Client content delivery and organization
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-blue-400 mr-2">→</span>
-                                WordPress theme development and implementation
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-blue-400 mr-2">→</span>
-                                Content population and SEO optimization
-                            </li>
-                            <li class="flex items-start">
-                                <span class="text-blue-400 mr-2">→</span>
-                                Testing and launch preparation
+                                Live and launch preparation
                             </li>
                         </ul>
                     </div>
@@ -2036,7 +2187,7 @@ const projects = [
     },
     figma: "https://www.figma.com/design/4aHXjhBm0ESdhwABWPMtdh/Dirt-therapy-Redesign?node-id=2-641&t=MlzPWjwpnNlS5LhM-1",
     github: null,
-    live: "#",
+    live: null,
     caseStudy: true,
     projectType: "web-dev",
     images: [
