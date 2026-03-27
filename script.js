@@ -3,6 +3,8 @@ document.getElementById('current-year').textContent = new Date().getFullYear();
 let currentProjectImages = [];
 let currentImageIndex = 0;
 
+
+
 // Portfolio projects data
 const projects = [
     {
@@ -2205,7 +2207,7 @@ const projects = [
 },
 
 {
-    id: 17,
+    id: 19,
     title: "PantryChef – AI-Powered Food Waste Reduction Platform",
     summary: "A smart web application that uses AI-driven recipe matching and kitchen management tools to reduce household food waste.",
     description: `
@@ -4444,7 +4446,8 @@ const projects = [
             'images/card-7.png',
             'images/card-6.png',
             'images/card-8.png',
-            'images/card-9.png'
+            'images/card-9.png',
+            'images/brand-6.png'
         ],
         thumbnail: 'images/b.card.png'
     },
